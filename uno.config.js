@@ -4,5 +4,5 @@ export default defineConfig({
     presets: [
         presetUno(),
     ],
-    include: ['./resources/views/**/*.blade.php'],
+    filesystem: ['./resources/views/**/*.blade.php'],
 })
