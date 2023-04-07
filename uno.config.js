@@ -5,6 +5,6 @@ export default defineConfig({
         presetUno(),
     ],
     extraContent: {
-        filesystem: ['./resources/views/**/*.blade.php'],
+        filesystem: ['resources/views/**/*.blade.php'],
     }
 })
